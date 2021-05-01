@@ -30,23 +30,37 @@ body{
     text-decoration: none;
 }
 
+#headerMenu li a:hover{
+    color: #DE9900;
+}
+
 #headerMenu h1{
-    color: white;
     float: left;
     margin: 10px;
     margin-left: 70px;
     font-weight: 900;
 }
 
+#headerMenu h1 a{
+    text-decoration: none;
+    color: white;
+}
+
+
 #headerMenu{
     background-color: #2F2F2F;
     text-align: right;
 }
 
+#headerMenu  .current{
+    color: #DE9900;
+    background-color: #434343;
+
+}
+
 #topBigSection{
-    background-image: url('/Images/showcase.jpg');
+    background: url('/Images/showcase.jpg') center center/cover fixed;
     text-align: center;
-    background-position: center;
     min-height: 650px;
     padding-top: 200px;
 }
@@ -59,7 +73,7 @@ body{
 }
 
 #topBigSection h2 span{
-    color: orange;
+    color: #DE9900;
 }
 
 #topBigSection p{
@@ -79,7 +93,7 @@ body{
 }
 
 #leftArticle{
-    background-image: url('/Images/photo-1.jpg');
+    background-image: url('/Images/photo-1.jpg');    
     width: 50%;
     min-height: 400px;
     float: left;
@@ -101,7 +115,7 @@ body{
 }
 
 #rightArticle h2 span{
-    color: orange;
+    color: #DE9900;
 }
 
 #rightArticle button{
@@ -119,7 +133,7 @@ body{
 .endLittleBlocks{
     float: left;
     width: 33%;
-    background-color: white;
+    background-color: #F2F2F2;
     padding: 40px;
     min-height: 300px;
     text-align: center;
@@ -145,5 +159,5 @@ footer p{
 }
 
 #endMiddleBlock{
-    background-color: orange;
+    background-color: #DE9900;
 }
