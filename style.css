@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#headerMenu li{
+    display: inline-block;
+}
+
+#headerMenu ul{
+    margin: 0;
+}
+
+#headerMenu li:last-child{
+    margin-right: 80px;
+}
+
+#headerMenu li:hover{
+    background-color: #434343;
+}
+
+#headerMenu li a{
+    padding: 20px 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+#headerMenu h1{
+    color: white;
+    float: left;
+    margin: 10px;
+    margin-left: 70px;
+    font-weight: 900;
+}
+
+#headerMenu{
+    background-color: #2F2F2F;
+    text-align: right;
+}
+
+#topBigSection{
+    background-image: url('/Images/showcase.jpg');
+    text-align: center;
+    background-position: center;
+    min-height: 650px;
+    padding-top: 200px;
+}
+
+#topBigSection h2{
+    margin: 0;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#topBigSection h2 span{
+    color: orange;
+}
+
+#topBigSection p{
+    color: white;
+    font-size: 20px;
+}
+
+#topBigSection button{
+    padding: 15px;
+    color: white;
+    background-color: #2F2F2F;
+    border: none;
+}
+
+#topBigSection button:hover{
+    cursor: pointer;
+}
+
+#leftArticle{
+    background-image: url('/Images/photo-1.jpg');
+    width: 50%;
+    min-height: 400px;
+    float: left;
+}
+
+#rightArticle{
+    width: 50%;
+    min-height: 400px;
+    float: left;
+    padding: 30px 20px;
+    text-align: center;
+    color: white;
+    background-color: #2F2F2F;
+}
+
+#rightArticle h2{
+    font-weight: 900;
+
+}
+
+#rightArticle h2 span{
+    color: orange;
+}
+
+#rightArticle button{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+}
+
+#rightArticle button:hover{
+    cursor: pointer;
+}
+
+.endLittleBlocks{
+    float: left;
+    width: 33%;
+    background-color: white;
+    padding: 40px;
+    min-height: 300px;
+    text-align: center;
+}
+
+.endLittleBlocks h2{
+    font-weight: 900;
+}
+
+footer{
+    text-align: center;
+    background-color: #2F2F2F;
+    color: white;
+}
+
+footer p{
+    padding: 20px;
+    margin: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+#endMiddleBlock{
+    background-color: orange;
+}
