@@ -107,6 +107,7 @@ body{
     text-align: center;
     color: white;
     background-color: #2F2F2F;
+    overflow: hidden;
 }
 
 #rightArticle h2{
@@ -137,6 +138,10 @@ body{
     padding: 40px;
     min-height: 300px;
     text-align: center;
+}
+
+.endLittleBlocks i{
+    font-size: 50px;
 }
 
 .endLittleBlocks h2{
