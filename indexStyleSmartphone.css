@@ -13,33 +13,17 @@ body{
     display: inline-block;
 }
 
-.headerMenu ul{
-    margin: 0;
-}
-
-.headerMenu li:last-child{
-    margin-right: 80px;
-}
-
-.headerMenu li:hover{
-    background-color: #434343;
-}
-
 .headerMenu li a{
-    padding: 20px 10px;
+    padding: 3.3vh 5vw;
     display: inline-block;
     color: white;
     text-decoration: none;
 }
 
-.headerMenu li a:hover{
-    color: #DE9900;
-}
-
 .headerMenu h1{
     float: left;
-    margin: 10px;
-    margin-left: 70px;
+    margin: 16px;
+    margin-left: 20px;
     font-weight: 900;
 }
 
@@ -52,6 +36,7 @@ body{
 .headerMenu{
     background-color: #2F2F2F;
     text-align: right;
+    height: 9vh;
 }
 
 .headerMenu  .current{
@@ -63,15 +48,16 @@ body{
 #topBigSection{
     background: url('/Images/showcase.jpg') center center/cover fixed;
     text-align: center;
-    min-height: 650px;
-    padding-top: 200px;
+    height: 41vh;
+    padding-top: 40px;
 }
 
 #topBigSection h2{
     margin: 0;
     color: white;
-    font-size: 60px;
+    font-size: 3em;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 #topBigSection h2 span{
@@ -81,6 +67,7 @@ body{
 #topBigSection p{
     color: white;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
 #topBigSection button{
@@ -90,21 +77,16 @@ body{
     border: none;
 }
 
-#topBigSection button:hover{
-    cursor: pointer;
-}
-
 #leftArticle{
     background-image: url('/Images/photo-1.jpg');    
-    width: 50%;
-    min-height: 400px;
-    float: left;
+    width: 100%;
+    height: 50vh;
+    display: none;
 }
 
 #rightArticle{
-    width: 50%;
-    min-height: 400px;
-    float: left;
+    width: 100%;
+    height: 50vh;
     padding: 30px 20px;
     text-align: center;
     color: white;
@@ -114,7 +96,7 @@ body{
 
 #rightArticle h2{
     font-weight: 900;
-
+    margin-bottom: 10px;
 }
 
 #rightArticle h2 span{
@@ -134,11 +116,10 @@ body{
 }
 
 .endLittleBlocks{
-    float: left;
-    width: 33%;
+    width: 100%;
     background-color: #F2F2F2;
     padding: 40px;
-    min-height: 300px;
+    height: 30vh;
     text-align: center;
 }
 
@@ -154,6 +135,7 @@ footer{
     text-align: center;
     background-color: #2f2f2fee;
     color: white;
+    height: 9vh;
 }
 
 footer p{
