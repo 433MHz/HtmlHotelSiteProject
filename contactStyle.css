@@ -46,6 +46,12 @@
     height: 200px;
 }
 
+#contact-topSection input:focus,
+#contact-topSection textarea:focus{
+    outline: none;
+    border-color: #DE9900;
+}
+
 #contact-topSection label{
     margin-top: 20px;
 }
