@@ -44,7 +44,7 @@
 }
 
 #about-bottomSection{
-    background: url('/Images/test-bg.jpg');
+    background: url('./Images/test-bg.jpg');
     width: 100%;
     min-height: 700px;
     text-align: center;

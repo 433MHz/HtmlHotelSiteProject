@@ -61,7 +61,7 @@ body{
 }
 
 #topBigSection{
-    background: url('/Images/showcase.jpg') center center/cover fixed;
+    background: url('./Images/showcase.jpg') center center/cover fixed;
     text-align: center;
     min-height: 650px;
     padding-top: 200px;
@@ -95,7 +95,7 @@ body{
 }
 
 #leftArticle{
-    background-image: url('/Images/photo-1.jpg');    
+    background-image: url('./Images/photo-1.jpg');    
     width: 50%;
     min-height: 400px;
     float: left;

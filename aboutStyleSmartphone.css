@@ -50,7 +50,7 @@ footer{
 }
 
 #about-bottomSection{
-    background: url('/Images/test-bg.jpg');
+    background: url('./Images/test-bg.jpg');
     width: 100%;
     height: 91vh;
     text-align: center;
