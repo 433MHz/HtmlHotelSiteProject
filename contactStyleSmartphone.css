@@ -17,6 +17,7 @@
     padding: 10px;
     border: none;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 15px;
     cursor: pointer;
 }
@@ -31,13 +32,13 @@
 }
 
 #contact-topSection input{
-    height: 30px;
+    min-height: 30px;
     border: #2f2f2f59 solid 1px
 }
 
 #contact-topSection textarea{
     border: #2f2f2f59 solid 1px;
-    height: 200px;
+    min-height: 200px;
 }
 
 #contact-topSection input:focus,
@@ -54,16 +55,17 @@
 #contact-topSection-container{
     padding-top: 20px;
     width: 80%;
-    height: 91vh;
+    min-height: 91vh;
     margin: auto;
 }
 
 #contact-bottomSection{
     width: 100vw;
     text-align: center;
-    height: 91vh;
+    min-height: 91vh;
     color: white;
     background-color: #2f2f2f;
+    padding-bottom: 3rem;
 }
 
 .contact-bottomSection-blocks{
